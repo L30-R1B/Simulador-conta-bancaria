@@ -15,4 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjrt</artifactId>
+    <version>1.9.7</version> <!-- verifique a versão mais recente -->
+    </dependency>
+  <dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.7</version> <!-- verifique a versão mais recente -->
+    </dependency>
+
 </project>
