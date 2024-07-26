@@ -44,4 +44,14 @@ public class Conta {
         System.out.println("Data de abertura : " + dataAbertura);
         System.out.println("Saldo : " + saldo);
     }
+
+    public boolean sacar(double valor) {
+        if (saldo >= valor) {
+            saldo -= valor;
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
+
